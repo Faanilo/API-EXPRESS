@@ -47,7 +47,7 @@ app.use("/student", studentRoute);
 
 
 
-const connexiontobdd = "mongodb://127.0.0.1:27017/jobit";
+const connexiontobdd = "mongodb://127.0.0.1:27017/test";
 const PORT = process.env.PORT || 5200;
 mongoose
   .connect(connexiontobdd, { useNewUrlParser: true, useUnifiedTopology: true })
