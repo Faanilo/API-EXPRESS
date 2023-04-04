@@ -7,9 +7,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const app = express();
-//cors option modif
-
-//fin
 
 //stockage photo  config
 const fileStorage = multer.diskStorage({
